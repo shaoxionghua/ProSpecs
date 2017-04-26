@@ -26,9 +26,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true                    #是否使用ARC
 
   s.source_files  = "ProSpecs", "ProSpecs/*.{h,m}"
-  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation','SystemConfiguration'    #所需的framework,多个用逗号隔开
+  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation','SystemConfiguration'   #所需的framework,多个用逗号隔开
   s.module_name = 'ProSpecs'                #模块名称
-
+  
+  # spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
