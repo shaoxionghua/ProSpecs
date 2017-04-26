@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
 
   s.name         = "ProSpecs"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ProSpecs."
+  s.summary      = "ProSpecs"
   s.description  = <<-DESC
-                      私有库
+                      私有库测试用，看看能不能成功
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ProSpecs"
+  s.homepage     = "https://github.com/shaoxionghua/ProSpecs.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license      = "MIT"
